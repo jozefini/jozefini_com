@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "format": "biome format --write ."
+  },
+  "dependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@devlab/store": "^3.0.3",
+    "@types/node": "^22.5.5",
+    "@types/react": "npm:types-react@19.0.0-rc.1",
+    "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1",
+    "autoprefixer": "^10.4.20",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.441.0",
+    "next": "15.0.2-canary.6",
+    "postcss": "^8.4.47",
+    "react": "19.0.0-rc-1631855f-20241023",
+    "react-dom": "19.0.0-rc-1631855f-20241023",
+    "server-only": "^0.0.1",
+    "tailwindcss": "^3.4.12",
+    "tailwindcss-animate": "^1.0.7",
+    "tailwindcss-react-aria-components": "1.1.5",
+    "typescript": "^5.6.2"
+  }
+}
