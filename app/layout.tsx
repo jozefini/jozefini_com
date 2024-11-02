@@ -1,7 +1,7 @@
 import './globals.css'
 import type { Metadata, Viewport } from 'next'
-import { Source_Serif_4, Merriweather } from 'next/font/google'
-import { cn, getSiteTitle } from '@/lib/utils'
+import { Merriweather } from 'next/font/google'
+import { cn } from '@/lib/utils'
 import { Header } from '@/components/header'
 import { Footer } from '@/components/footer'
 import { cookies } from 'next/headers'
@@ -18,11 +18,6 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   maximumScale: 1,
 }
-
-// const codeFont = Fira_Code({
-//   subsets: ['latin'],
-//   variable: '--font-code',
-// })
 
 const codeFont = localFont({
   src: '../public/fonts/departure-mono/DepartureMono-Regular.woff2',
