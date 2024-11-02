@@ -35,7 +35,7 @@ export default async function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  const isDarkMode = (await cookies()).get(THEME_MODE_KEY)?.value === 'dark'
+  const isDarkMode = (await cookies()).get(THEME_MODE_KEY)?.value !== 'light'
 
   return (
     <html
