@@ -5,13 +5,14 @@ import { cn, getSiteTitle } from '@/lib/utils'
 import { Header } from '@/components/header'
 import { Footer } from '@/components/footer'
 import { cookies } from 'next/headers'
-import { THEME_MODE_KEY } from '@/lib/constants'
+import { SITE_BASE_TITLE, THEME_MODE_KEY } from '@/lib/constants'
 import { ThemeProvider } from '@/contexts/theme'
 import localFont from 'next/font/local'
 
 export const metadata: Metadata = {
-  title: getSiteTitle('Home'),
-  description: 'Jozefin Bashaj ✧ Software Engineer',
+  title: SITE_BASE_TITLE,
+  description:
+    'A Software Engineer passionate about open-source and scalable web apps, with expertise in the React ecosystem and full-stack development.',
 }
 
 export const viewport: Viewport = {
