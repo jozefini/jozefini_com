@@ -1,10 +1,10 @@
 import { Logo } from './icons/logo'
 
 const css = {
-  wrapper: 'w-full max-w-3xl mt-10',
+  wrapper: 'w-full max-w-3xl mt-8',
   inner: 'text-center flex items-center justify-center flex-col mt-16 text-sm',
   brand: 'text-zinc-300 dark:text-zinc-600',
-  logo: 'size-8',
+  logo: 'size-10',
   copyright: 'mt-4',
   separator: 'opacity-30',
 }
